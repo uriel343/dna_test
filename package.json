@@ -1,0 +1,29 @@
+{
+  "name": "dna_test",
+  "version": "1.0.0",
+  "description": "This is my test from dna detector from humans or mutants",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uriel343/dna_test.git"
+  },
+  "author": "Uriel Ortiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uriel343/dna_test/issues"
+  },
+  "homepage": "https://github.com/uriel343/dna_test#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}
