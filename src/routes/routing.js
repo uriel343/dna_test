@@ -6,6 +6,6 @@ const readDNAController = require('../controllers/readDNAController');
 
 const api = express.Router();
 
-api.get('/test', readDNAController.verificatorDNA );
+api.get('/mutant', readDNAController.verificatorDNA );
 
 module.exports = api
