@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'dna-validator'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FB595CAFDC2D4E229A53AAEC08D581F2 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8719ECF9759341CBACBF554E49985564 }}
           package: .
