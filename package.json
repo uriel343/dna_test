@@ -4,7 +4,7 @@
   "description": "This is my test from dna detector from humans or mutants",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon src/index.js",
+    "dev": "nodemon src/index.js --ignore src/books.json",
     "start": "nodemon src/index.js"
   },
   "repository": {
